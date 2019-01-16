@@ -236,7 +236,7 @@ and our administrator may contact you if we need any extra information.</h4>
 {% endcomment %}
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
-  We will use <a href="https://pad.carpentries.org/2018-09-22-UTA">Etherpad collaborative document </a> for chatting, taking notes, and sharing URLs and bits of code.
+  We will use <a href="https://pad.carpentries.org/2019-02-23-UTA">Etherpad collaborative document </a> for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 {% endif %}
 
