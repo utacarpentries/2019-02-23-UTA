@@ -14,7 +14,7 @@ enddate: 2019-02-24        # machine-readable end date for the workshop in YYYY-
 instructor: ["Balan Ramesh","Nitin Kanwar", "Farah Shamma", "Joe Cloud", "Ayda Mirsalehi","Anna Williford"] # boxed, comma-separated list of instructors' names as strings, like ["Adnan Qureshi", "Nicky Hales", "Arnav Bajwa"]
 helper: [""Adnan Qureshi", "Nicky Hales", "Arnav Bajwa""]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["awillifo@uta.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-email2: ["balan.ramesh@uta.edu"]
+email2: "balan.ramesh@uta.edu"
 collaborative_notes: "http://pad.software-carpentry.org/2019-02-23-UTA"            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
