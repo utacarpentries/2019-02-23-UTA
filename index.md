@@ -480,8 +480,8 @@ and our administrator may contact you if we need any extra information.</h4>
           add its installation directory to your system path.</strong>
         To add Notepad++ to the path:<br>
 		1) Open Git-Bash from the start menu.<br>
-		2) Type: cd [enter] to make sure you are in your home directory.<br>
-		3) Type: notepad .bashrc [enter]. This will create .bashrc file in Notepad.
+		2) Type: <code> cd </code> [enter] to make sure you are in your home directory.<br>
+		3) Type: <code> notepad .bashrc </code> [enter]. This will create .bashrc file in Notepad.
 		Add the following text to the file:<br>
 		<code>
 		export PATH=$PATH:"C:\Program Files (x86)\Notepad++" <br>
