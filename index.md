@@ -610,7 +610,7 @@ and our administrator may contact you if we need any extra information.</h4>
         <li>Open <a href="https://www.anaconda.com/distribution/#download-section">https://www.anaconda.com/distribution/#download-section</a> with your web browser.</li>
         <li>Click on Windows icon at the top panel.</li>
         <li>Download the Python 3 installer for Windows.</li>
-        <li>Install Python 3 using all of the defaults for installation <em>except</em> make sure to check <strong>Add Anaconda to my PATH environment variable</strong>.</li>
+        <li>Install Python 3 using all of the defaults for installation.</li>
       </ol>
     </div>
     <div class="col-md-4">
