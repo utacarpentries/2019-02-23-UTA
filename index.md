@@ -617,8 +617,8 @@ and our administrator may contact you if we need any extra information.</h4>
         Juppyter notebook should open in your web browser.<br>
         2. Open git-bash window and type:<br>
         <code> python --version </code>
-        You should get an output indicating the version of installed python. You should NOT see <code> command not found </code>.<br>
-        If you do, reinstall anaconda following the directions above exacly. If you cannot get it to work, come to the workshop 10-15 minutes before the workshop, we will be there to help you.
+        You should see the output indicating the version of installed python. You should NOT see <code> command not found </code>.<br>
+        If you do, installation was not completed properly. Please come 10-15 minutes before the workshop starts - we will be there to help you.
       </ol>
     </div>
     <div class="col-md-4">
