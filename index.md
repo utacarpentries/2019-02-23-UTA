@@ -608,6 +608,7 @@ and our administrator may contact you if we need any extra information.</h4>
       <a href="https://www.youtube.com/watch?v=xxQ0mzZ8UvA">Video Tutorial</a>
       <ol>
         <li>Open <a href="https://www.anaconda.com/distribution/#download-section">https://www.anaconda.com/distribution/#download-section</a> with your web browser.</li>
+        <li>Click __Windows__ at the top panel.</li>
         <li>Download the Python 3 installer for Windows.</li>
         <li>Install Python 3 using all of the defaults for installation <em>except</em> make sure to check <strong>Add Anaconda to my PATH environment variable</strong>.</li>
       </ol>
