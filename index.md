@@ -611,6 +611,13 @@ and our administrator may contact you if we need any extra information.</h4>
         <li>Click on Windows icon at the top panel.</li>
         <li>Download the Python 3 installer for Windows.</li>
         <li>Install Python 3 using all of the defaults for installation.</li>
+        Check that installation is successful:
+        1. Open git-bash window and type:  
+        <font size="1"><strong> jupyter-notebook </strong></font>
+        Juppyter notebook should open in your web browser.
+        2. Open git-bash window and type:
+        <font size="1"><strong> python </strong></font>
+        You should get an output indicating the version of installed python.   
       </ol>
     </div>
     <div class="col-md-4">
