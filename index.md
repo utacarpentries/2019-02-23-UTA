@@ -483,15 +483,15 @@ and our administrator may contact you if we need any extra information.</h4>
 		2) Type: cd [enter] to make sure you are in your home directory.<br>
 		3) Type: notepad .bashrc [enter]. This will create .bashrc file in Notepad.
 		Add the following text to the file:<br>
-		<font size="1"><strong>
+		<code>
 		export PATH=$PATH:"C:\Program Files (x86)\Notepad++" <br>
 		alias npp=notepad++ <br>
-		</strong></font>
+		</code>
 		Note: if Notepad++ is installed in `Program Files` folder,
 		use: <br>
-		<font size="1"><strong>
+		<code>
 		export PATH=$PATH:"C:\Program Files\Notepad++" <br>
-		</strong></font>
+		</code>
 		4) Save the file and exit Notepad. <br>
 		5) Open a new Git-Bash window. <br>
 		You should now be able to launch Notepad++ by typing: npp [enter]. 
@@ -612,12 +612,13 @@ and our administrator may contact you if we need any extra information.</h4>
         <li>Download the Python 3 installer for Windows.</li>
         <li>Install Python 3 using all of the defaults for installation.</li>
         Check that installation is successful:
-        1. Open git-bash window and type:  
-        <font size="1"><strong> jupyter-notebook </strong></font>
-        Juppyter notebook should open in your web browser.
-        2. Open git-bash window and type:
-        <font size="1"><strong> python </strong></font>
-        You should get an output indicating the version of installed python.   
+        1. Open git-bash window and type:<br>  
+        <code> jupyter-notebook </code> <br>
+        Juppyter notebook should open in your web browser.<br>
+        2. Open git-bash window and type:<br>
+        <code> python </code>
+        You should get an output indicating the version of installed python. The last line will start with <code> >>> </code> <br>
+        This is python shell. You can exit it by typing <code> quit() </code>
       </ol>
     </div>
     <div class="col-md-4">
