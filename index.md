@@ -616,9 +616,9 @@ and our administrator may contact you if we need any extra information.</h4>
         <code> jupyter-notebook </code> <br>
         Juppyter notebook should open in your web browser.<br>
         2. Open git-bash window and type:<br>
-        <code> python </code>
-        You should get an output indicating the version of installed python. The last line will start with <code> >>> </code> <br>
-        This is python shell. You can exit it by typing <code> quit() </code>
+        <code> python --version </code>
+        You should get an output indicating the version of installed python. You should NOT see <code> command not found </code>.<br>
+        If you do, reinstall anaconda following the directions above exacly. If you cannot get it to work, come to the workshop 10-15 minutes before the workshop, we will be there to help you.
       </ol>
     </div>
     <div class="col-md-4">
