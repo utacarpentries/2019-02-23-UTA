@@ -612,7 +612,7 @@ and our administrator may contact you if we need any extra information.</h4>
   <div class="row">
     <div class="col-md-4">
       <h4 id="python-windows">Windows</h4>
-      {% comment %} <a href="https://www.youtube.com/watch?v=xxQ0mzZ8UvA">Video Tutorial</a> {% endcomment}
+      {% comment %} <a href="https://www.youtube.com/watch?v=xxQ0mzZ8UvA">Video Tutorial</a> {% endcomment %}
       <ol>
         <li>Open <a href="https://www.anaconda.com/distribution/#download-section">https://www.anaconda.com/distribution/#download-section</a> with your web browser.</li>
         <li>Click on Windows icon at the top panel.</li>
