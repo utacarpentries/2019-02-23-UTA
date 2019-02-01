@@ -299,11 +299,13 @@ and our administrator may contact you if we need any extra information.</h4>
   you will need access to the software described below.
   In addition, you will need an up-to-date web browser.
 </p>
+{% comment %}
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
+{% endcomment %}
 
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
   <h3>The Bash Shell</h3>
@@ -316,10 +318,13 @@ and our administrator may contact you if we need any extra information.</h4>
   <div class="row">
     <div class="col-md-4">
       <h4 id="shell-windows">Windows</h4>
-      <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
+      {% comment %} <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a> {% endcomment %}
       <ol>
         <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
-        <li>Run the installer and follow the steps below:
+        <li>Run the installer with default options <strong> except: </strong> <br>
+          When choosing the default editor, select: <br>
+          <code> Use the Nano editor by default </code>
+          {% comment %}
           <ol>
             {% comment %} Git 2.18.0 Setup {% endcomment %}
             <li>
@@ -356,6 +361,8 @@ and our administrator may contact you if we need any extra information.</h4>
             {% comment %} Completing the Git Setup Wizard {% endcomment %}
             <li>Click on "Finish".</li>
           </ol>
+          {% endcomment %}
+          
         </li>
         <li>
           If your "HOME" environment variable is not set (or you don't know what this is):
