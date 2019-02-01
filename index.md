@@ -614,7 +614,7 @@ and our administrator may contact you if we need any extra information.</h4>
         <li>Download the Python 3 installer for Windows.</li>
         <li>Install Python 3 using all of the defaults for installation.</li>
         After installation is complete, check that you can launch Jupyter Notebook from start menu.<br>
-        In order to run python from GitBash window: <br>
+        In order to run python from Git-Bash window: <br>
         1) Open Git-Bash from the start menu.<br>
 		    2) Type: <code> cd </code> [enter] to make sure you are in your home directory.<br>
 		    3) Type: <code> notepad .bashrc </code> [enter]. This will create .bashrc file in Notepad.
