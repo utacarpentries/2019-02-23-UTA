@@ -592,13 +592,13 @@ and our administrator may contact you if we need any extra information.</h4>
     <a href="https://www.anaconda.com/distribution/">Anaconda</a>,
     an all-in-one installer.
   </p>
-
+    {% comment %}
     <p>
       Regardless of how you choose to install it,
       <strong>please make sure you install Python version 3.x</strong>
       (e.g., 3.6 is fine).
     </p>
-
+    {% endcomment}
     <p>
       We will teach Python using the <a href="https://jupyter.org/">Jupyter notebook</a>,
       a programming environment that runs in a web browser. For this to work you will need a reasonably
@@ -612,20 +612,25 @@ and our administrator may contact you if we need any extra information.</h4>
   <div class="row">
     <div class="col-md-4">
       <h4 id="python-windows">Windows</h4>
-      <a href="https://www.youtube.com/watch?v=xxQ0mzZ8UvA">Video Tutorial</a>
+      {% comment %} <a href="https://www.youtube.com/watch?v=xxQ0mzZ8UvA">Video Tutorial</a> {% endcomment}
       <ol>
         <li>Open <a href="https://www.anaconda.com/distribution/#download-section">https://www.anaconda.com/distribution/#download-section</a> with your web browser.</li>
         <li>Click on Windows icon at the top panel.</li>
         <li>Download the Python 3 installer for Windows.</li>
         <li>Install Python 3 using all of the defaults for installation.</li>
-        Check that installation is successful:
-        1. Open git-bash window and type:<br>  
-        <code> jupyter-notebook </code> <br>
-        Juppyter notebook should open in your web browser.<br>
-        2. Open git-bash window and type:<br>
-        <code> python --version </code>
-        You should see the output indicating the version of installed python. You should NOT see <code> command not found </code>.<br>
-        If you do, installation was not completed properly. Please come 10-15 minutes before the workshop starts - we will be there to help you.
+        After installation is complete, check that you can launch Jupyter Notebook from start menu.<br>
+        In order to run python from GitBash window: <br>
+        1) Open Git-Bash from the start menu.<br>
+		    2) Type: <code> cd </code> [enter] to make sure you are in your home directory.<br>
+		    3) Type: <code> notepad .bashrc </code> [enter]. This will create .bashrc file in Notepad.
+		    Add the following text to the file:<br>
+		    <code> alias python='winpty python.exe' </code>
+		    4) Save the file and exit Notepad. <br>
+		    5) Open a new Git-Bash window for changes to take effect. <br>
+        You should now be able to launch pyhton by typing: <code> python </code>[enter].
+        To exit python shell, type: <code> quit() </code>
+		    You should NOT see <code> command not found </code>.<br>
+        If you do, please come 10-15 minutes before the workshop starts - we will be there to help you.
       </ol>
     </div>
     <div class="col-md-4">
