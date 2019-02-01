@@ -326,7 +326,7 @@ and our administrator may contact you if we need any extra information.</h4>
           <code> Use the Nano editor by default </code>
           {% comment %}
           <ol>
-            {% comment %} Git 2.18.0 Setup {% endcomment %}
+             Git 2.18.0 Setup 
             <li>
                 Click on "Next" four times (two times if you've previously
                 installed Git).  You don't need to change anything
@@ -361,8 +361,7 @@ and our administrator may contact you if we need any extra information.</h4>
             {% comment %} Completing the Git Setup Wizard {% endcomment %}
             <li>Click on "Finish".</li>
           </ol>
-          {% endcomment %}
-          
+          {% endcomment %}         
         </li>
         <li>
           If your "HOME" environment variable is not set (or you don't know what this is):
@@ -405,7 +404,7 @@ and our administrator may contact you if we need any extra information.</h4>
 </div> {% comment %} End of 'shell' section. {% endcomment %}
 
 <div id="git"> {% comment %} Start of 'Git' section. GitHub browser compatability
-           is given at https://help.github.com/articles/supported-browsers/{% endcomment %}
+           is given at https://help.github.com/articles/supported-browsers/ {% endcomment %}
   <h3>Git</h3>
   <p>
     Git is a version control system that lets you track who made changes
@@ -479,7 +478,6 @@ and our administrator may contact you if we need any extra information.</h4>
   <div class="row">
     <div class="col-md-4">
       <h4 id="editor-windows">Windows</h4>
-
       <p>
         You can use your favorite text editor. If you do not have one, we recommend
         <a href="https://notepad-plus-plus.org/">Notepad++</a>.
@@ -501,7 +499,7 @@ and our administrator may contact you if we need any extra information.</h4>
 		</code>
 		4) Save the file and exit Notepad. <br>
 		5) Open a new Git-Bash window. <br>
-		You should now be able to launch Notepad++ by typing: npp [enter]. 
+        You should now be able to launch Notepad++ by typing: <code> npp </code> [enter]. 
 		If you run into trouble please ask your instructor to help you with this.
       </p>
     </div>
@@ -509,13 +507,11 @@ and our administrator may contact you if we need any extra information.</h4>
       <h4 id="editor-macosx">macOS</h4>
       <p>
         You can use your favorite text editor. If you do not have one, we recommend 
-        <a href="https://www.barebones.com/products/textwrangler/">Text Wrangler</a>.
-        
+        <a href="https://www.barebones.com/products/textwrangler/">Text Wrangler</a>.        
       </p>
     </div>
     <div class="col-md-4">
       <h4 id="editor-linux">Linux</h4>
-
       <p>
         You can use your favorite text editor. If you do not have one, we recommend 
         <a href="https://wiki.gnome.org/Apps/Gedit">Gedit</a>.
@@ -598,7 +594,7 @@ and our administrator may contact you if we need any extra information.</h4>
       <strong>please make sure you install Python version 3.x</strong>
       (e.g., 3.6 is fine).
     </p>
-    {% endcomment}
+    {% endcomment %}
     <p>
       We will teach Python using the <a href="https://jupyter.org/">Jupyter notebook</a>,
       a programming environment that runs in a web browser. For this to work you will need a reasonably
@@ -608,7 +604,6 @@ and our administrator may contact you if we need any extra information.</h4>
       (some older browsers, including Internet Explorer version 9
       and below, are not).
     </p>
-
   <div class="row">
     <div class="col-md-4">
       <h4 id="python-windows">Windows</h4>
