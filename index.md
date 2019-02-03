@@ -490,13 +490,13 @@ and our administrator may contact you if we need any extra information.</h4>
 		Add the following text to the file:<br>
 		<code>
 		export PATH=$PATH:"C:\Program Files (x86)\Notepad++"<br>
-		alias npp=notepad++<br>
+		alias npp=notepad++
 		</code>
 		Note: if Notepad++ is installed in `Program Files` folder,
 		use:<br>
 		<code>
 		export PATH=$PATH:"C:\Program Files\Notepad++"<br>
-    alias npp=notepad++<br>
+    alias npp=notepad++
 		</code> <br>
 		4) Save the file and exit Notepad.<br>
 		5) Open a new Git-Bash window.<br>
@@ -516,7 +516,7 @@ and our administrator may contact you if we need any extra information.</h4>
 		4)Add the following text to the file:<br>
 		<code>
 		alias sublime="open -a /Applications/Sublime\ Text.app" <br>
-		export PATH=/usr/local/bin:$PATH <br>
+		export PATH=/usr/local/bin:$PATH
 		</code><br>
 		5) Save the file and exit Sublime. <br>
 		6) Type: <code>source ~/.bash_profile</code> in the terminal.<br>
