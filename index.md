@@ -486,19 +486,20 @@ and our administrator may contact you if we need any extra information.</h4>
         To add Notepad++ to the path:<br>
 		1) Open Git-Bash from the start menu.<br>
 		2) Type: <code>cd</code> <kbd>enter</kbd> to make sure you are in your home directory.<br>
-		3) Type: <code>notepad .bashrc</code> <kbd>enter</kbd>. This will create .bashrc file in Notepad.
+		3) Type: <code>notepad .bashrc</code> <kbd>enter</kbd>. This will create .bashrc file in Notepad. <br>
 		Add the following text to the file:<br>
 		<code>
-		export PATH=$PATH:"C:\Program Files (x86)\Notepad++" <br>
-		alias npp=notepad++
+		export PATH=$PATH:"C:\Program Files (x86)\Notepad++"<br>
+		alias npp=notepad++<br>
 		</code>
 		Note: if Notepad++ is installed in `Program Files` folder,
-		use: <br>
+		use:<br>
 		<code>
 		export PATH=$PATH:"C:\Program Files\Notepad++"<br>
+    alias npp=notepad++<br>
 		</code> <br>
-		4) Save the file and exit Notepad. <br>
-		5) Open a new Git-Bash window. <br>
+		4) Save the file and exit Notepad.<br>
+		5) Open a new Git-Bash window.<br>
         You should now be able to launch Notepad++ by typing: <code>npp</code> <kbd>enter</kbd>. 
 		If you run into trouble please ask your instructor to help you with this.
       </p>
@@ -507,10 +508,10 @@ and our administrator may contact you if we need any extra information.</h4>
       <h4 id="editor-macosx">macOS</h4>
       <p>
         You can use your favorite text editor. If you do not have one, we recommend 
-        <a href="https://www.sublimetext.com/">Sublime Text</a>. <br>
-        To open Sublime Text from the terminal/bash. <br>
-		1) Go to the Utilities in Finder and open terminal. <br>
-		2) Copy <code>ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime</code> to the terminal and hit <kbd>Return</kbd>. <br>
+        <a href="https://www.sublimetext.com/">Sublime Text</a>.<br>
+        To open Sublime Text from the terminal/bash.<br>
+		1) Go to the Utilities in Finder and open terminal.<br>
+		2) Add <code>ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime</code> to the terminal and hit <kbd>Return</kbd>.<br>
 		3) Type: <code>open ~/.bash_profile</code> in the terminal. This will open a text file. <br>
 		4)Add the following text to the file:<br>
 		<code>
