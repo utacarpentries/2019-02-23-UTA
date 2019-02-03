@@ -490,13 +490,13 @@ and our administrator may contact you if we need any extra information.</h4>
 		Add the following text to the file:<br>
 		<code>
 		export PATH=$PATH:"C:\Program Files (x86)\Notepad++"<br>
-		alias npp=notepad++
+		alias npp=notepad++<br>
 		</code>
 		Note: if Notepad++ is installed in `Program Files` folder,
 		use:<br>
 		<code>
 		export PATH=$PATH:"C:\Program Files\Notepad++"<br>
-    alias npp=notepad++
+    alias npp=notepad++<br>
 		</code> <br>
 		4) Save the file and exit Notepad.<br>
 		5) Open a new Git-Bash window.<br>
@@ -516,7 +516,7 @@ and our administrator may contact you if we need any extra information.</h4>
 		4)Add the following text to the file:<br>
 		<code>
 		alias sublime="open -a /Applications/Sublime\ Text.app" <br>
-		export PATH=/usr/local/bin:$PATH
+		export PATH=/usr/local/bin:$PATH <br>
 		</code><br>
 		5) Save the file and exit Sublime. <br>
 		6) Type: <code>source ~/.bash_profile</code> in the terminal.<br>
@@ -633,6 +633,7 @@ and our administrator may contact you if we need any extra information.</h4>
 		    2) Type: <code> cd </code> [enter] to make sure you are in your home directory.<br>
 		    3) Type: <code> notepad .bashrc </code> [enter]. This will create .bashrc file in Notepad.
 		    Add the following text to the file:<br>
+        <code> export PATH=$PATH:"$HOME/Anaconda3/" </code>
 		    <code> alias python='winpty python.exe' </code>
 		    4) Save the file and exit Notepad. <br>
 		    5) Open a new Git-Bash window for changes to take effect. <br>
