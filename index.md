@@ -507,14 +507,14 @@ and our administrator may contact you if we need any extra information.</h4>
       <h4 id="editor-macosx">macOS</h4>
       <p>
         You can use your favorite text editor. If you do not have one, we recommend 
-        <a href="https://www.barebones.com/products/textwrangler/">Text Wrangler</a>.        
+        <a href="https://www.sublimetext.com/">Sublime Text</a>.        
       </p>
     </div>
     <div class="col-md-4">
       <h4 id="editor-linux">Linux</h4>
       <p>
         You can use your favorite text editor. If you do not have one, we recommend 
-        <a href="https://wiki.gnome.org/Apps/Gedit">Gedit</a>.
+        <a href="https://www.sublimetext.com/">Sublime Text</a>.
       </p>
     </div>
   </div>
