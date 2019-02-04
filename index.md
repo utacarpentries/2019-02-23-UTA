@@ -468,11 +468,14 @@ and our administrator may contact you if we need any extra information.</h4>
   <p>
     When you're writing code, it's nice to have a text editor that is
     optimized for writing code, with features like automatic
-    color-coding of key words.  The default text editor on macOS and
+    color-coding of key words.  {% comment %} The default text editor on macOS and
     Linux is usually set to Vim, which is not famous for being
     intuitive.  If you accidentally find yourself stuck in it, try
     typing the escape key, followed by <code>:q!</code> (colon, lower-case 'q',
-    exclamation mark), then hitting Return to return to the shell.
+    exclamation mark), then hitting Return to return to the shell.{% endcomment %}
+    Every operating system has its own default text editor with different functionality: notepad for Windows,
+    TextEdit for mac and vim for Linux. To standardize our lessons across all platforms, we recommend installing 
+    Sublime Text, a popular text editor that works on every platform.
   </p>
 
   <div class="row">
@@ -480,28 +483,17 @@ and our administrator may contact you if we need any extra information.</h4>
       <h4 id="editor-windows">Windows</h4>
       <p>
         You can use your favorite text editor. If you do not have one, we recommend
-        <a href="https://notepad-plus-plus.org/">Notepad++</a>.
-        <strong>Be aware that you must
-          add its installation directory to your system path.</strong>
-        To add Notepad++ to the path:<br>
-		1) Open Git-Bash from the start menu.<br>
-		2) Type: <code>cd</code> <kbd>enter</kbd> to make sure you are in your home directory.<br>
-		3) Type: <code>notepad .bashrc</code> <kbd>enter</kbd>. This will create .bashrc file in Notepad. <br>
-		Add the following text to the file:<br>
-		<code>
-		export PATH=$PATH:"C:\Program Files (x86)\Notepad++"<br>
-		alias npp=notepad++
-		</code>
-		Note: if Notepad++ is installed in `Program Files` folder,
-		use:<br>
-		<code>
-		export PATH=$PATH:"C:\Program Files\Notepad++"<br>
-    alias npp=notepad++
-		</code> <br>
-		4) Save the file and exit Notepad.<br>
-		5) Open a new Git-Bash window.<br>
-        You should now be able to launch Notepad++ by typing: <code>npp</code> <kbd>enter</kbd>. 
-		If you run into trouble please ask your instructor to help you with this.
+        <a href="https://www.sublimetext.com/3">Sublime Text 3</a>.  
+        After installation is complete, follow steps below to use Sublime Text from Git-Bash window:  
+		    1) Open Git-Bash from the start menu.<br>
+		    2) Type: <code>cd</code> <kbd>enter</kbd> to make sure you are in your home directory.<br>
+		   3) Type: <code>notepad .bashrc</code> <kbd>enter</kbd>. This will create .bashrc file in Notepad. <br>
+		   Add the following text to the file:<br>
+		   <code> export PATH=$PATH:"/c/Program Files/Sublime Text 3/"<br> </code>
+		   4) Save the file and exit Notepad.<br>
+		   5) Open a new Git-Bash window for changes to take effect.<br>
+       You should now be able to launch Sublime Text by typing: <code>subl</code> <kbd>enter</kbd>. 
+		   If you run into trouble please ask your instructor to help you with this.
       </p>
     </div>
     <div class="col-md-4">
@@ -628,10 +620,11 @@ and our administrator may contact you if we need any extra information.</h4>
         <li>Download the Python 3 installer for Windows.</li>
         <li>Install Python 3 using all of the defaults for installation.</li>
         After installation is complete, check that you can launch Jupyter Notebook from start menu.<br>
+        Start-> Anaconda3-> Jupyter Notebook
         In order to run python from Git-Bash window: <br>
         1) Open Git-Bash from the start menu.<br>
-		    2) Type: <code> cd </code> [enter] to make sure you are in your home directory.<br>
-		    3) Type: <code> notepad .bashrc </code> [enter]. This will create .bashrc file in Notepad.
+		    2) Type: <code> cd </code> <kbd>enter</kbd> to make sure you are in your home directory.<br>
+		    3) Type: <code> notepad .bashrc </code> <kbd>enter</kbd>. This will open .bashrc file in Notepad.
 		    Add the following text to the file:<br>
         <code> export PATH=$PATH:"$HOME/Anaconda3/" </code>
 		    <code> alias python='winpty python.exe' </code>
