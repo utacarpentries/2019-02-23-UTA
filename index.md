@@ -620,7 +620,7 @@ and our administrator may contact you if we need any extra information.</h4>
         <li>Download the Python 3 installer for Windows.</li>
         <li>Install Python 3 using all of the defaults for installation.</li>
         After installation is complete, check that you can launch Jupyter Notebook from start menu.<br>
-        Start-> Anaconda3-> Jupyter Notebook <br>
+        Start &rarr; Anaconda3 &rarr; Jupyter Notebook <br>
         In order to run python from Git-Bash window: <br>
         1) Open Git-Bash from the start menu.<br>
 		    2) Type: <code> cd </code> <kbd>enter</kbd> to make sure you are in your home directory.<br>
