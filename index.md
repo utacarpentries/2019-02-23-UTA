@@ -519,7 +519,8 @@ and our administrator may contact you if we need any extra information.</h4>
       <h4 id="editor-linux">Linux</h4>
       <p>
         You can use your favorite text editor. If you do not have one, we recommend 
-        <a href="https://www.sublimetext.com/">Sublime Text</a>.
+        <a href="https://www.sublimetext.com/">Sublime Text</a>.<br>
+        Please follow this <a href="https://www.sublimetext.com/docs/3/linux_repositories.html">link</a> for installation instructions depending on your linux distribution. If you run into trouble please ask your instructor to help you with this. 
       </p>
     </div>
   </div>
