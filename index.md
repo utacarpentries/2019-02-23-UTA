@@ -489,7 +489,7 @@ and our administrator may contact you if we need any extra information.</h4>
 		    2) Type: <code>cd</code> <kbd>enter</kbd> to make sure you are in your home directory.<br>
 		    3) Type: <code>notepad .bashrc</code> <kbd>enter</kbd>. This will create .bashrc file in Notepad. <br>
 		    Add the following text to the file:<br>
-		    <code>export PATH=$PATH:"/c/Program Files/Sublime Text 3/"<br></code> 
+		    <code>export PATH=$PATH:"/c/Program Files/Sublime Text 3/"<br></code> <br>
         4) Save the file and exit Notepad.<br>
 		    5) In the Git-Bash window type: <code>source ~/.bashrc</code> <kbd>enter</kbd> The changes you made to .bashrc are now in effect.
         You should now be able to launch Sublime Text by typing: <code>subl</code> <kbd>enter</kbd>. 
