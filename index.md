@@ -484,12 +484,12 @@ and our administrator may contact you if we need any extra information.</h4>
       <p>
         You can use your favorite text editor. If you do not have one, we recommend
         <a href="https://www.sublimetext.com/3">Sublime Text 3</a>.  
-        After installation is complete, follow steps below to use Sublime Text from Git-Bash window:  
+        After installation is complete, follow steps below to use Sublime Text from Git-Bash window: <br> 
 		    1) Open Git-Bash from the start menu.<br>
 		    2) Type: <code>cd</code> <kbd>enter</kbd> to make sure you are in your home directory.<br>
 		   3) Type: <code>notepad .bashrc</code> <kbd>enter</kbd>. This will create .bashrc file in Notepad. <br>
 		   Add the following text to the file:<br>
-		   <code> export PATH=$PATH:"/c/Program Files/Sublime Text 3/"<br> </code>
+		   <code>export PATH=$PATH:"/c/Program Files/Sublime Text 3/"<br></code>
 		   4) Save the file and exit Notepad.<br>
 		   5) Open a new Git-Bash window for changes to take effect.<br>
        You should now be able to launch Sublime Text by typing: <code>subl</code> <kbd>enter</kbd>. 
