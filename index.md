@@ -504,13 +504,13 @@ and our administrator may contact you if we need any extra information.</h4>
         To open Sublime Text from the terminal/bash.<br>
 		1) Go to the Utilities in Finder and open terminal.<br>
 		2) Type: <code>open ~/.bash_profile</code> in the terminal. This will open a text file. <br>
-		3)Add the following text to the file:<br>
+		3) Add the following text to the file:<br>
 		<code>
 		alias subl="open -a /Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" <br>
 		export PATH=:$PATH:"/Applications/Sublime Text.app/Contents/SharedSupport/bin/"
 		</code><br>
-		4) Save the file and exit Sublime. <br>
-		5) Type: <code>source ~/.bash_profile</code> in the terminal.<br>
+		4) Save the file and exit TextEdit. <br>
+		<br> 5) Type: <code>source ~/.bash_profile</code> in the terminal.<br>
 		You should now be able to launch Sublime Text by typing: <code>sublime</code> <kbd>Return</kbd>. 
 		If you run into trouble please ask your instructor to help you with this.
       </p>
