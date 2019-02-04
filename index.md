@@ -491,7 +491,7 @@ and our administrator may contact you if we need any extra information.</h4>
 		    Add the following text to the file:<br>
 		    <code>export PATH=$PATH:"/c/Program Files/Sublime Text 3/"<br></code>
         4)Save the file and exit Notepad.<br>
-		    5) Open a new Git-Bash window for changes to take effect.<br>
+		    5)In the Git-Bash window type: <code>source ~/.bashrc</code><kbd>enter</kbd>. The changes you made to .bashrc are now in effect.
         You should now be able to launch Sublime Text by typing: <code>subl</code> <kbd>enter</kbd>. 
 		    If you run into trouble please ask your instructor to help you with this.
       </p>
@@ -629,8 +629,8 @@ and our administrator may contact you if we need any extra information.</h4>
         <code> export PATH=$PATH:"$HOME/Anaconda3/" </code>
 		    <code> alias python='winpty python.exe' </code>
 		    4) Save the file and exit Notepad. <br>
-		    5) Open a new Git-Bash window for changes to take effect. <br>
-        You should now be able to launch pyhton by typing: <code> python </code>[enter].
+		    5) In the Git-Bash window type: <code>source ~/.bashrc</code><kbd>enter</kbd>. The changes you made to .bashrc are now in     effect.<br>
+        You should now be able to launch pyhton by typing: <code>python</code><kbd>enter</kbd>.
         To exit python shell, type: <code> quit() </code>
 		    You should NOT see <code> command not found </code>.<br>
         If you do, please come 10-15 minutes before the workshop starts - we will be there to help you.
