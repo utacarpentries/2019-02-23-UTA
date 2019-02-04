@@ -511,7 +511,7 @@ and our administrator may contact you if we need any extra information.</h4>
 		</code><br>
 		4) Save the file and exit TextEdit. <br>
 		<br> 5) Type: <code>source ~/.bash_profile</code> in the terminal.<br>
-		You should now be able to launch Sublime Text by typing: <code>sublime</code> <kbd>Return</kbd>. 
+		You should now be able to launch Sublime Text by typing: <code>subl</code> <kbd>Return</kbd>. 
 		If you run into trouble please ask your instructor to help you with this.
       </p>
     </div>
