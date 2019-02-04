@@ -366,13 +366,13 @@ and our administrator may contact you if we need any extra information.</h4>
         <li>
           If your "HOME" environment variable is not set (or you don't know what this is):
           <ol>
-            <li>Open command prompt (Open Start Menu then type <code>cmd</code> and press [Enter])</li>
+            <li>Open command prompt (Open Start Menu then type <code>cmd</code> and press <kbd>Enter</kbd> )</li>
             <li>
               Type the following line into the command prompt window exactly as shown:
               <p><code>setx HOME "%USERPROFILE%"</code></p>
             </li>
-            <li>Press [Enter], you should see <code>SUCCESS: Specified value was saved.</code></li>
-            <li>Quit command prompt by typing <code>exit</code> then pressing [Enter]</li>
+            <li>Press <kbd>Enter</kbd>, you should see <code>SUCCESS: Specified value was saved.</code></li>
+            <li>Quit command prompt by typing <code>exit</code> then pressing <kbd>Enter</kbd></li>
           </ol>
         </li>
       </ol>
@@ -483,17 +483,17 @@ and our administrator may contact you if we need any extra information.</h4>
       <h4 id="editor-windows">Windows</h4>
       <p>
        You can use your favorite text editor. If you do not have one, we recommend
-       <a href="https://www.sublimetext.com/3">Sublime Text 3</a>.  
+       <a href="https://www.sublimetext.com/">Sublime Text 3</a>.  
        After installation is complete, follow steps below to use Sublime Text from Git-Bash window: <br> 
 		    1) Open Git-Bash from the start menu.<br>
 		    2) Type: <code>cd</code> <kbd>enter</kbd> to make sure you are in your home directory.<br>
 		    3) Type: <code>notepad .bashrc</code> <kbd>enter</kbd>. This will create .bashrc file in Notepad. <br>
 		    Add the following text to the file:<br>
-		    <code>export PATH=$PATH:"/c/Program Files/Sublime Text 3/"<br></code> <br>
+		    <code>export PATH=$PATH:"/c/Program Files/Sublime Text 3/"</code> <br>
         4) Save the file and exit Notepad.<br>
 		    5) In the Git-Bash window type: <code>source ~/.bashrc</code> <kbd>enter</kbd> The changes you made to .bashrc are now in effect.
         You should now be able to launch Sublime Text by typing: <code>subl</code> <kbd>enter</kbd>. 
-		    If you run into trouble please ask your instructor to help you with this.
+		    If you run into trouble please ask your instructor for help.
       </p>
     </div>
     <div class="col-md-4">
@@ -619,14 +619,14 @@ and our administrator may contact you if we need any extra information.</h4>
         <li>Download the Python 3 installer for Windows.</li>
         <li>Install Python 3 using all of the defaults for installation.</li>
         After installation is complete, check that you can launch Jupyter Notebook from start menu.<br>
-        Start-> Anaconda3-> Jupyter Notebook
+        Start-> Anaconda3-> Jupyter Notebook <br>
         In order to run python from Git-Bash window: <br>
         1) Open Git-Bash from the start menu.<br>
 		    2) Type: <code> cd </code> <kbd>enter</kbd> to make sure you are in your home directory.<br>
 		    3) Type: <code> notepad .bashrc </code> <kbd>enter</kbd>. This will open .bashrc file in Notepad.
 		    Add the following text to the file:<br>
         <code> export PATH=$PATH:"$HOME/Anaconda3/" </code>
-		    <code> alias python='winpty python.exe' </code>
+		    <code> alias python='winpty python.exe' </code> <br>
 		    4) Save the file and exit Notepad. <br>
 		    5) In the Git-Bash window type: <code>source ~/.bashrc</code><kbd>enter</kbd>. The changes you made to .bashrc are now in     effect.<br>
         You should now be able to launch pyhton by typing: <code>python</code><kbd>enter</kbd>.
