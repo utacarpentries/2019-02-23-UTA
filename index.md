@@ -487,11 +487,11 @@ and our administrator may contact you if we need any extra information.</h4>
        After installation is complete, follow steps below to use Sublime Text from Git-Bash window: <br> 
 		    1) Open Git-Bash from the start menu.<br>
 		    2) Type: <code>cd</code> <kbd>Enter</kbd> to make sure you are in your home directory.<br>
-		    3) Type: <code>notepad .bashrc</code> <kbd>Enter</kbd>. This will create .bashrc file in Notepad. <br>
+		    3) Type: <code>notepad .bash_profile</code> <kbd>Enter</kbd>. This will create .bash_profile file in Notepad. <br>
 		    Add the following text to the file:<br>
 		    <code>export PATH=$PATH:"/c/Program Files/Sublime Text 3/"</code> <br>
         4) Save the file and exit Notepad.<br>
-		    5) In the Git-Bash window type: <code>source ~/.bashrc</code> <kbd>Enter</kbd> The changes you made to .bashrc are now in effect.
+		    5) In the Git-Bash window type: <code>source ~/.bash_profile</code> <kbd>Enter</kbd> The changes you made to .bashrc are now in effect.
         You should now be able to launch Sublime Text by typing: <code>subl</code> <kbd>Enter</kbd>. 
 		    If you run into trouble please ask your instructor for help.
       </p>
@@ -624,12 +624,12 @@ and our administrator may contact you if we need any extra information.</h4>
         In order to run python from Git-Bash window: <br>
         1) Open Git-Bash from the start menu.<br>
 		    2) Type: <code> cd </code> <kbd>Enter</kbd> to make sure you are in your home directory.<br>
-		    3) Type: <code> notepad .bashrc </code> <kbd>Enter</kbd>. This will open .bashrc file in Notepad.
+		    3) Type: <code> notepad .bash_profile </code> <kbd>Enter</kbd>. This will open .bash_profile file in Notepad.
 		    Add the following text to the file:<br>
         <code> export PATH=$PATH:"$HOME/Anaconda3/" </code>
 		    <code> alias python='winpty python.exe' </code> <br>
 		    4) Save the file and exit Notepad. <br>
-		    5) In the Git-Bash window type: <code>source ~/.bashrc</code><kbd>Enter</kbd>. The changes you made to .bashrc are now in     effect.<br>
+		    5) In the Git-Bash window type: <code>source ~/.bash_profile</code><kbd>Enter</kbd>. The changes you made to .bash_profile are now in effect.<br>
         You should now be able to launch pyhton by typing: <code>python</code><kbd>Enter</kbd>.
         To exit python shell, type: <code> quit() </code>
 		    You should NOT see <code> command not found </code>.<br>
