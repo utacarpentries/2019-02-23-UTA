@@ -506,8 +506,7 @@ and our administrator may contact you if we need any extra information.</h4>
 		2) Type: <code>open ~/.bash_profile</code> in the terminal. This will open a text file. <br>
 		3) Add the following text to the file:<br>
 		<code>
-		alias subl="open -a /Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" <br>
-		export PATH=:$PATH:"/Applications/Sublime Text.app/Contents/SharedSupport/bin/"
+		alias subl="open -a /Applications/Sublime\ Text.app" <br>
 		</code><br>
 		4) Save the file and exit TextEdit. <br>
 		<br> 5) Type: <code>source ~/.bash_profile</code> in the terminal.<br>
